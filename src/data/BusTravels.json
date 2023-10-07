@@ -1,0 +1,693 @@
+[
+  {
+    "id": 1,
+    "ticketId": "3435",
+    "company": "Metro Turizm",
+    "date": "2023-10-07",
+    "departureLocation": "İstanbul",
+    "destination": "İzmir",
+    "departureTime": "12:00",
+    "emptyChair": "15",
+    "busType": "2+2",
+    "price": "1000",
+    "travelTime": "10 saat",
+    "travelTime2": "10 saat",
+    "totalSeat": [
+      {
+        "id": "1",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "5",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "9",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "13",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "17",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "2",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "6",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "10",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "14",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "18",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "3",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "7",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "11",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "15",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "19",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "4",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "8",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "12",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "16",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "20",
+        "gender": "empty",
+        "control": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "ticketId": "3435",
+    "company": "Metro Turizm",
+    "date": "2023-10-07",
+    "departureLocation": "İstanbul",
+    "destination": "İzmir",
+    "departureTime": "17:00",
+    "emptyChair": "8",
+    "busType": "2+2",
+    "price": "1000",
+    "travelTime": "10 saat ",
+    "totalSeat": [
+      {
+        "id": "1",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "5",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "9",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "13",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "17",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "2",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "6",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "10",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "14",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "18",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "3",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "7",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "11",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "15",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "19",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "4",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "8",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "12",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "16",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "20",
+        "gender": "empty",
+        "control": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "ticketId": "3534",
+    "date": "2024-05-05",
+    "company": "PAMUKKALE Turizm",
+    "departureLocation": "İzmir",
+    "destination": "İstanbul",
+    "departureTime": "17:00",
+    "emptyChair": "10",
+    "busType": "2+2",
+    "price": "800",
+    "travelTime": "10 saat ",
+    "totalSeat": [
+      {
+        "id": "1",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "5",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "9",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "13",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "17",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "2",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "6",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "10",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "14",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "18",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "3",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "7",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "11",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "15",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "19",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "4",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "8",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "12",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "16",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "20",
+        "gender": "empty",
+        "control": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "ticketId": "3534",
+    "date": "2024-10-04",
+    "company": "PAMUKKALE Turizm",
+    "departureLocation": "İzmir",
+    "destination": "İstanbul",
+    "departureTime": "12:00",
+    "emptyChair": "20",
+    "busType": "2+2",
+    "price": "800",
+    "travelTime": "10 saat ",
+    "totalSeat": [
+      {
+        "id": "1",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "5",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "9",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "13",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "17",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "2",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "6",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "10",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "14",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "18",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "3",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "7",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "11",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "15",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "19",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "4",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "8",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "12",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "16",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "20",
+        "gender": "empty",
+        "control": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "ticketId": "0706",
+    "date": "2023-12-04",
+    "company": "KamilKoç Turizm",
+    "departureLocation": "Antalya",
+    "destination": "Ankara",
+    "departureTime": "17:00",
+    "emptyChair": "8",
+    "busType": "2+2",
+    "price": "500",
+    "travelTime": "7 saat ",
+    "totalSeat": [
+      {
+        "id": "1",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "5",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "9",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "13",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "17",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "2",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "6",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "10",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "14",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "18",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "3",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "7",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "11",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "15",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "19",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "4",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "8",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "12",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "16",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "20",
+        "gender": "empty",
+        "control": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "ticketId": "0607",
+    "date": "2023-12-04",
+    "company": "Nilüfer Turizm",
+    "departureLocation": "Ankara",
+    "destination": "Antalya",
+    "departureTime": "22:00",
+    "emptyChair": "15",
+    "busType": "2+2",
+    "price": "500",
+    "travelTime": "7 saat",
+    "totalSeat": [
+      {
+        "id": "1",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "5",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "9",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "13",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "17",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "2",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "6",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "10",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "14",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "18",
+        "gender": "woman",
+        "control": true
+      },
+      {
+        "id": "3",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "7",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "11",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "15",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "19",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "4",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "8",
+        "gender": "empty",
+        "control": false
+      },
+      {
+        "id": "12",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "16",
+        "gender": "man",
+        "control": true
+      },
+      {
+        "id": "20",
+        "gender": "empty",
+        "control": false
+      }
+    ]
+  }
+]
