@@ -52,12 +52,12 @@ const TicketSales = () => {
         );
       }
     } else {
-      const asd = ticketData[0].totalSeat?.find(
+      const ticketDataGenderControl = ticketData[0].totalSeat?.find(
         (item) => Number(item.id) === Number(id) + 1
       );
-      if (asd?.gender === saveUserData?.gender) {
+      if (ticketDataGenderControl?.gender === saveUserData?.gender) {
         ticketFunction(id);
-      } else if (asd?.gender === 'empty') {
+      } else if (ticketDataGenderControl?.gender === 'empty') {
         ticketFunction(id);
       } else {
         toast.info(
