@@ -28,7 +28,7 @@ const Login = () => {
     email: '',
     password: '',
   };
-  const savedDataString = localStorage.getItem('users');
+  const savedDataString = typeof window !== "undefined" &&  localStorage.getItem('users');
   const savedData = savedDataString ? JSON.parse(savedDataString) : null;
   const formik = useFormik({
     initialValues: initialValues,
@@ -41,7 +41,7 @@ const Login = () => {
         loginUserControl?.email === values.email &&
         loginUserControl.password === values.password
       ) {
-        localStorage.setItem('user', JSON.stringify(loginUserControl));
+        typeof window !== "undefined" &&  localStorage.setItem('user', JSON.stringify(loginUserControl));
         location.reload();
       } else {
         toast.error('Girilen bilgi hatalıdır');

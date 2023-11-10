@@ -16,12 +16,12 @@ const Register = () => {
     firstName: Yup.string()
       .max(50, 'You can enter up to 50 characters in this field.')
       .min(2, 'You must enter at least 2 characters in this field')
-      .matches(/^[ a-zA-Z\-ßüÜöÖäÄ/’]+$/, 'name yaz')
+      .matches(/^[ a-zA-Z\-ßüÜöÖäÄ/’]+$/, 'Please enter a valid name')
       .required('Please enter a valid name'),
     lastName: Yup.string()
       .max(50, 'You can enter up to 50 characters in this field.')
       .min(2, 'You must enter at least 2 characters in this field')
-      .matches(/^[ a-zA-Z\-ßüÜöÖäÄ/’]+$/, 'name yaz')
+      .matches(/^[ a-zA-Z\-ßüÜöÖäÄ/’]+$/, 'Please enter a valid surname')
       .required('Please enter a valid surname'),
     email: Yup.string()
       .email('Please enter a valid email')
@@ -63,10 +63,10 @@ const Register = () => {
         },
       ]);
       setId(id + 1);
-      const getLocalData = localStorage.getItem('users');
+      const getLocalData =typeof window !== "undefined" &&  localStorage.getItem('users');
       const getLocalUsersData = getLocalData ? JSON.parse(getLocalData) : [];
       getLocalUsersData.push(values);
-      localStorage.setItem('users', JSON.stringify(getLocalUsersData));
+      typeof window !== "undefined" && localStorage.setItem('users', JSON.stringify(getLocalUsersData));
       router.push('login');
       toast.success('Hesap Başarıyla Oluşturuldu');
     },

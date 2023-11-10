@@ -16,7 +16,7 @@ const Form = () => {
     arrival: '06',
     travelHistory: `${year}-${month}-${date}`,
   });
-  const loginUser = localStorage.getItem('user');
+  const loginUser = typeof window !== "undefined" && localStorage.getItem('user');
 
   const handleSubmit = (e: any) => {
     e.preventDefault();

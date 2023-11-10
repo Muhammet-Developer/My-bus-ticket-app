@@ -17,7 +17,7 @@ interface ContextProps {
 }
 
 //2
-const loginUser = localStorage.getItem('user');
+const loginUser = typeof window !== "undefined" && localStorage.getItem('user');
 const loginUserData = loginUser ? JSON.parse(loginUser) : null;
 const GlobalContext = createContext<ContextProps>({
   saveUserData: {} as IUserRegisterType,

@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useGlobalContext } from '../../app/Context/store';
 import { useRouter } from 'next/navigation';
 
@@ -8,18 +8,15 @@ const Navbar = () => {
   const { saveUserData } = useGlobalContext();
   const router = useRouter();
   const logOut = () => {
-    const log = localStorage.removeItem('user');
+    const log =typeof window !== "undefined" &&  localStorage.removeItem('user');
+    router.push('/');
     setTimeout(() => {
       if (log === undefined) {
         location.reload();
       }
     }, 100);
   };
-  useEffect(() => {
-    if (saveUserData === null) {
-      router.push('/login');
-    }
-  }, []);
+
   return (
     <div className='h-20 bg-[#1E3362] flex justify-around items-center xsm:flex-col'>
       <div>
